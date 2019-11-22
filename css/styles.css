@@ -206,6 +206,7 @@ span.section-subtitle {
    margin-top: 70px;
 }
 
+
 .contact-form input[type="text"]:valid,
 .contact-form input[type="email"]:valid,
 textarea:valid
@@ -213,7 +214,7 @@ textarea:valid
     outline: 2px solid green;
 }
 
-.contat-form input[type="text"]:invalid,
+.contact-form input[type="text"]:invalid,
 .contact-form input[type="email"]:invalid,
 textarea:invalid
 {
@@ -276,7 +277,7 @@ input[type="submit"] {
     cursor: pointer;
     border: 2px solid #fed136;
     border-radius: 5px;
-    padding-left: 0;
+    padding-left: 0;    
 }
 
 input[type="submit"]:hover {
