@@ -207,16 +207,16 @@ span.section-subtitle {
 }
 
 
-.contact-form input[type="text"]:valid,
-.contact-form input[type="email"]:valid,
-textarea:valid
+.contact-form input[type="text"]:valid:focus,
+.contact-form input[type="email"]:valid:focus,
+textarea:valid:focus
 {
     outline: 2px solid green;
 }
 
-.contact-form input[type="text"]:invalid,
-.contact-form input[type="email"]:invalid,
-textarea:invalid
+.contact-form input[type="text"]:invalid:focus,
+.contact-form input[type="email"]:invalid:focus,
+textarea:invalid:focus
 {
     outline: 2px solid red;
 }
