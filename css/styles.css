@@ -180,21 +180,10 @@ span.section-subtitle {
 /* -------------- contacts ---------------- */
 
 .contacts {
-    background-color: #222222;
+    background: #222222 url(../img/map.png) no-repeat bottom 20%  right 0%;
     position: relative;
     min-height: 637px;
     padding: 100px 110px;
-}
-
-.contacts::before {
-    content: '';
-    display: block;
-    background: url(../img/map.png) no-repeat center right;
-    width: 614px;
-    height: 537px;
-    position: absolute;
-    right: 0;
-    top: 100px;
 }
 
 .contacts h2.section-title {
@@ -205,7 +194,6 @@ span.section-subtitle {
    display: flex;
    margin-top: 70px;
 }
-
 
 .contact-form input[type="text"]:valid:focus,
 .contact-form input[type="email"]:valid:focus,
@@ -260,6 +248,12 @@ textarea, textarea::placeholder {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+input,
+textarea {
+    text-transform: lowercase;
+    color: #929292;
 }
 
 input[type="submit"] {
